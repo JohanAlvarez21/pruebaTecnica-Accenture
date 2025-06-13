@@ -18,6 +18,12 @@ Instalación Ide IntelliJ IDEA
 
   Descarga: [Java 17 JDK](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
   
+### 3- Instalacion de Docker Desktop
+  
+  La base de datos y la aplicación están dockerizadas por lo que tenemos que instalar Docker Desktop
+
+  Descarga [DockerDesktop](https://www.docker.com/products/docker-desktop/)
+  
 ## Estructura del proyecto
   Para este paso dentro de la ruta shopping/src/main/java/com.app.shopping se crearon los siguientes paquetes:
     -model // Entidades
@@ -31,11 +37,22 @@ Instalación Ide IntelliJ IDEA
   
     - Base de datos de manera local 
     
-  ![image](https://github.com/user-attachments/assets/ad5d6eb5-d3c2-4d39-8ebf-487ccdba6060)
+  ![image](https://github.com/user-attachments/assets/82bfb18f-9580-45bd-84d0-e9e39bf23daf)
 
-    - Base de datos en la nube usando Railway
-    
-  ![image](https://github.com/user-attachments/assets/39b13b11-ed5c-42a4-818b-b3508841ab6f)
+## Ejecutar proyecto
+
+  Abrimos una terminal dentro de la ruta del proyecto y ejecutamos:
+  
+  docker-compose build
+  
+![image](https://github.com/user-attachments/assets/dfa82d89-3528-4808-93ff-8d7df89fac05)
+
+  docker-compose up
+  
+![image](https://github.com/user-attachments/assets/ca25064b-2716-48e5-bb31-ae2fa2e3fd4f)
+
+
+  
 
 
 ## Ejemplos uso de la API:
